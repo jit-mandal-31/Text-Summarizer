@@ -33,6 +33,27 @@ It uses Hugging Face Transformers with the facebook/bart-large-cnn model for tex
 - transformers
 - torch
 ---
+## 📖 My Journey
+I documented all the steps while building this Text Summarizer app using Streamlit and Hugging Face.
+### Step 1: Setup
+- Installed Python and created a virtual environment.
+- Installed required libraries: streamlit, transformers, and torch.
+### Step 2: Loading the Model
+- Used facebook/bart-large-cnn model from Hugging Face.
+- Cached the model using @st.cache_resource so it loads only once for faster performance.
+- Forced the model to run on CPU (device=-1) to avoid the “meta tensor” error.
+### Step 3: Building the App
+Created a simple Streamlit interface:
+- Users can paste their article in a text box.
+- Click a button to summarize the text.
+- Used max_length and min_length to control the summary length.
+- Limited the summary to 3 sentences by splitting the output text.
+### Step 4: Extra Touches
+- Made the UI simple and clear for users.
+- Added example input/output in the README.
+  
+✅ I tried different things, solved errors using Google/ChatGPT, and added small improvements to make the app user-friendly.
+---
 # 💻 Example
    ## Enter the text:
    ```
