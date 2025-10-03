@@ -52,7 +52,7 @@ Created a simple Streamlit interface:
 - Made the UI simple and clear for users.
 - Added example input/output in the README.
   
-##### ✅ I tried different things, solved errors using Google/ChatGPT, and added small improvements to make the app user-friendly.
+#### ✅ I tried different things, solved errors using Google/ChatGPT, and added small improvements to make the app user-friendly.
 ---
 # 💻 Example
    ## Enter the text:
